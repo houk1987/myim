@@ -1,7 +1,5 @@
 package com.myim.server.vo;
 
-import org.springframework.stereotype.Component;
-
 
 public class User {
 
