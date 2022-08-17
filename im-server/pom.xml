@@ -15,12 +15,38 @@
 	<description>im-server</description>
 	<properties>
 		<java.version>1.8</java.version>
+		<smack.version>4.3.5</smack.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
+
+		<!-- smack start -->
+		<dependency>
+			<groupId>org.igniterealtime.smack</groupId>
+			<artifactId>smack-java7</artifactId>
+			<version>${smack.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.igniterealtime.smack</groupId>
+			<artifactId>smack-tcp</artifactId>
+			<version>${smack.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.igniterealtime.smack</groupId>
+			<artifactId>smack-im</artifactId>
+			<version>${smack.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.igniterealtime.smack</groupId>
+			<artifactId>smack-extensions</artifactId>
+			<version>${smack.version}</version>
+		</dependency>
+
+		<!-- smack  end -->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
